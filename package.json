@@ -1,0 +1,7 @@
+{
+  "name": "sql-perser-ts",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "kamiazya <yuki@kamiazya.tech>",
+  "license": "MIT"
+}
