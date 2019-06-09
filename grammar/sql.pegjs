@@ -81,7 +81,7 @@ Expr
 
 Integer "integer"
   = n:[0-9]+ {
-    return parseInt(n.join(""));
+    return parseInt(n.join(""), 10);
   }
 
 Float "float"
