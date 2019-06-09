@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "kamiazya <yuki@kamiazya.tech>",
   "license": "MIT",
+  "scripts": {
+    "peg": "pegjs --plugin ts-pegjs -o src/grammar/sql.ts grammar/sql.pegjs"
+  },
   "devDependencies": {
     "@types/pegjs": "^0.10.1",
     "pegjs": "^0.10.0",
