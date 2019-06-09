@@ -11,6 +11,7 @@
     "@types/pegjs": "^0.10.1",
     "pegjs": "^0.10.0",
     "ts-pegjs": "^0.2.5",
+    "tslint": "^5.17.0",
     "typescript": "^3.5.1"
   }
 }
