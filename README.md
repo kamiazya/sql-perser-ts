@@ -1,5 +1,7 @@
 # sql-perser-ts
 
+[![Build Status](https://travis-ci.com/kamiazya/sql-perser-ts.svg?branch=master)](https://travis-ci.com/kamiazya/sql-perser-ts)
+
 ## License
 
 This software is released under the MIT License, see LICENSE.
