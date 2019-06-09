@@ -3,6 +3,22 @@
     "target": "es5",
     "module": "commonjs",
     "strict": true,
-    "esModuleInterop": true
-  }
+    "lib": [
+      "es2015"
+    ],
+    "esModuleInterop": true,
+    "allowJs": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "outDir": "dist/"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
