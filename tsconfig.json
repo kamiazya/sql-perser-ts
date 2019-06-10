@@ -4,7 +4,8 @@
     "module": "commonjs",
     "strict": true,
     "lib": [
-      "es2015"
+      "es2015",
+      "dom"
     ],
     "esModuleInterop": true,
     "allowJs": false,
@@ -13,7 +14,8 @@
     "noImplicitThis": true,
     "alwaysStrict": true,
     "strictNullChecks": true,
-    "outDir": "dist/"
+    "outDir": "dist/",
+    "baseUrl": "./src/"
   },
   "include": [
     "src/**/*.ts"

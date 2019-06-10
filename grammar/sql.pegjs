@@ -1,11 +1,3 @@
-{
-  const util = {
-    listToString: function(x: string, xs: string[]) {
-      return [x].concat(xs).join("");
-    }
-  };
-}
-
 Start
   = Stmt
 
@@ -125,11 +117,31 @@ OrToken
 AndToken
   = "AND"i !IdentRest
 
+QuotedIdent
+  = DoubleQuotedIdent
+  / SingleQuotedIdent
+  / BackticksQuotedIdent
+
+DoubleQuotedIdent
+  = '"' chars:[^"]+ '"' {
+    return chars.join('');
+  }
+
+SingleQuotedIdent
+  = "'" chars:[^']+ "'" {
+    return chars.join('');
+  }
+
+BackticksQuotedIdent
+  = "`" chars:[^`]+ "`" {
+    return chars.join('');
+  }
+
 /* Identifier */
 
 Identifier "identifier"
   = x:IdentStart xs:IdentRest* {
-    return util.listToString(x, xs);
+    return [x].concat(xs).join("");
   }
 
 IdentStart
