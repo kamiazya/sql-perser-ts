@@ -375,10 +375,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.7.tgz#4f2563bad652b2acb1722d7e7aae2b0ff62d192c"
   integrity sha512-1YKeT4JitGgE4SOzyB9eMwO0nGVNkNEsm9qlIt1Lqm/tG2QEiSMTD4kS3aO6L+w5SClLVxALmIBESK6Mk5wX0A==
 
-"@types/pegjs@^0.10.1":
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/@types/pegjs/-/pegjs-0.10.1.tgz#9a2f3961dc62430fdb21061eb0ddbd890f9e3b94"
-  integrity sha512-ra8IchO9odGQmYKbm+94K58UyKCEKdZh9y0vxhG4pIpOJOBlC1C+ZtBVr6jLs+/oJ4pl+1p/4t3JtBA8J10Vvw==
+"@types/pegjs@^0.10.2":
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/@types/pegjs/-/pegjs-0.10.2.tgz#25ecdef12a210bb2e8b6ef3105bacb4a85a666bc"
+  integrity sha512-HSiQX7133jjMBOrN3kWaLlpelS6Bg95uJaesr3nwf8qz9MTQorXqbLlErYGxKqXuYgRCKmSLUk0faCKS4yzT3g==
 
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
