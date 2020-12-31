@@ -21,7 +21,7 @@
     "pegjs": "^0.10.0",
     "prettier": "^1.19.1",
     "ts-jest": "^24.1.0",
-    "ts-pegjs": "^0.2.5",
+    "ts-pegjs": "^0.3.0",
     "tslint": "^5.17.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1",
